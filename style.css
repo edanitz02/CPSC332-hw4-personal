@@ -1,0 +1,54 @@
+
+header {
+    text-align: center;
+    font-family: Creepster;
+    font-size: 50px;
+    padding: 25px;
+    background-color: #890BBF;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: linear-gradient(#F25C05, #F29422);
+}
+
+/*EXTRA CREDIT FOOTER STYLING*/
+footer {
+    text-align: center;
+    font-size: larger;
+    font-family: Creepster;
+    padding: 15px;
+    color: #471D59;
+    background-color: #F25C05;
+}
+
+.candy-box {
+    display: flex;
+    flex-wrap: wrap;
+    border: 4px solid #F25C05;
+    border-radius: 5%;
+    margin: 8px;
+    padding-top: 12px;
+    justify-content: center;
+    width: 175px;
+    height: 175px;
+
+    background-color: #F29422;
+    color: #890BBF;
+    font-family: Creepster;
+}
+
+.candy-box:hover {
+    transform: scale(1.05, 1.05);
+    background-color: #CC41F2;
+}
+
+img {
+    border: 4px dotted #471D59;
+    border-radius: 20%;
+    padding: 2px;
+    width: 135px;
+    height: 135px;
+}
